@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Perusahaan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            height: 50%;
+            margin: auto;
+        }
+        .logo {
+            float: left;
+        }
+        .company-info {
+            float: left;
+            margin-left: 20px;
+        }
+        .language-selection {
+            float: right;
+        }
+        .clear {
+            clear: both;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .search-box {
+            float: right;
+            padding: 14px 16px;
+        }
+        .hero-image {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            margin: 20px 0;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        .top-story, .video-profile, .navigation, .newsletter {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 10px;
+            flex: 1;
+        }
+        .top-story img, .newsletter img {
+            width: 100%;
+            height: auto;
+        }
+        .newsletter {
+            display: flex;
+            justify-content: space-between;
+        }
+        .newsletter div {
+            flex: 1;
+            margin: 0 10px;
+        }
+        .user-reviews {
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        footer a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="ROMAN.png" alt="Company Logo">
+            </div>
+            <div class="company-info">
+                <h1>ROMAN</h1>
+                <p>PARFUME FRAGRANCE</p>
+            </div>
+            <div class="language-selection">
+                <a href="#">ID</a> | <a href="#">EN</a> | <a href="#">FR</a> | <a href="#">CN</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <a href="UASWEB1.html">Home</a>
+            <a href="index3.html">Products</a>
+            <a href="#">Download</a>
+            <a href="index1.html">Buy Now</a>
+            <a href="#">Support</a>
+            <a href="#">About Roman</a>
+            <div class="search-box">
+                <input type="text" placeholder="Cari...">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="hero-image">
+            <img src="Hero Image.jpg" alt="hero-image">
+        </div>
+        <br>
+        <div class="content">
+            <div class="top-story">
+                <h2>Top Story Headline</h2>
+                <img src="DIOR3.webp" alt="Berita Populer">
+                <p>Dior Homme is a signature Dior fragrance for men with a spicy and woody composition. Its olfactory identity is expressed through various inspirations, such as Dior Homme Sport or Dior Homme Intense. In all of its interpretations, it leaves a distinguishing mark, carefree, like a fragrance of freedom.</p>
+                <button>Download</button>
+                <button>Purchase</button>
+            </div>
+            <div class="video-profile">
+                <h2>SOCIAL</h2>
+                <video width="100%" controls>
+                    <source src="L'Or de J'adore, the new perfume.mp4" type="video/mp4">
+                </video>
+                <button>Share & Links</button>
+                <div class="navigation"> <h2>Navigate</h2> <ul> <li><a href="#">Dior Woddy </a></li> <li><a href="#">Dior Sport </a></li> <li><a href="#">Dior Home </a></li> </ul> </div>
+
+            </div>
+        </div>
+        <h3>A Monthly newsletter brought to you by (Roman)</h3>
+        <div class="newsletter">
+            <div>
+                <img src="DIOR1 (1).webp" alt="Produk 1">
+                <p><h2>Dior Homme</h2>
+                    <p>Eau de Toilette</p>
+                    <p class="price">Starting from: Rp 1.600.000,00</p></p>
+            </div>
+            <div>
+                <img src="DIOR2.webp" alt="Produk 2">
+                <p><h2>Dior Homme Sport</h2>
+                    <p>Fresh, Woody, and Spicy Notes</p>
+                    <p class="price">Starting from: Rp 1.750.000,00</p></p>
+            </div>
+            <div>
+                <img src="DIOR3.webp" alt="Produk 3">
+                <p><h2>Dior Homme Parfum</h2>
+                    <p>Ambery, Woody, and Floral Notes</p>
+                    <p class="price">Starting from: Rp 2.250.000,00</p></p>
+            </div>
+        </div>
+        <div class="user-reviews">
+            <h2>User-Reviews</h2>
+            <p>Lexus,1-Januari-2025: variant'Dior Fahrenheit Eau de Toilette'
+
+                Parfum ini memiliki aroma unik dengan perpaduan leathery dan woody yang terkesan maskulin dan hangat. Cocok untuk pria dewasa.......</p>
+            <p>Dior Homme Eau de Toilette:
+
+                Parfum ini memberikan sensasi segar dan kalem yang tahan lama dengan campuran bergamot, pink pepper, elemi, cedar.Tetapi beberapa pengguna mungkin merasa aroma kurang intens...</p>
+        </div>
+    </div>
+    <footer>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Links</a>
+        <a href="#">Site Maps</a>
+        <a href="#">Privacy</a>
+        <p>Copyright By Nazwa (2310020015) 2025</p>
+    </footer>
+</body>
+</html>
